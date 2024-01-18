@@ -1,0 +1,31 @@
+@import "variables.scss";
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: $font-stack;
+}
+
+main {
+    background-color: $main-color;
+    padding-top: 75px;
+    padding-bottom: 100px;
+}
+
+.wrapper {
+    width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex {
+    display: $flex;
+    justify-content: $space-between;
+    flex-wrap: $wrap;
+    align-items: $center;
+}
